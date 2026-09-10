@@ -145,7 +145,7 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
             {isSubmitting ? 'Procesando…' : 'Conseguir puesto'}
             disabled={isSubmitting}
           >
-            {isSubmitting ? 'Redirecting…' : 'Claim'}
+            {isSubmitting ? 'Procesando…' : 'Conseguir puesto'}
           </Button>
         </div>
         {error && <p className="text-xs text-destructive mt-2">{error}</p>}
