@@ -149,9 +149,10 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
           </Button>
         </div>
         {error && <p className="text-xs text-destructive mt-2">{error}</p>}
-        <p className="text-xs text-muted-foreground mt-2">
-          Already on the list? Enter the same URL or @handle and up your bid — you only pay the
-          difference.
+        <p <p className="text-xs text-muted-foreground mt-3">
+  ¿Ya estás en la lista? Introduce la misma URL o @usuario 
+        y aumenta tu puja. Solo pagarás la diferencia.
+</p>
         </p>
       </div>
     </section>
