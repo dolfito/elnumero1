@@ -1,4 +1,4 @@
-'use client';
+he'use client';
 
 import { useState, forwardRef } from 'react';
 import { Input } from '@/components/ui/input';
@@ -142,7 +142,7 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
           <Button
             size="lg"
             className="h-12 px-8 rounded-full shrink-0"
-            onClick={handleClaim}
+            {isSubmitting ? 'Procesando…' : 'Conseguir puesto'}
             disabled={isSubmitting}
           >
             {isSubmitting ? 'Redirecting…' : 'Claim'}
