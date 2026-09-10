@@ -84,10 +84,10 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
           <span className="absolute inline-flex size-full animate-ping rounded-full bg-green-500 opacity-75"></span>
           <span className="relative inline-flex size-1.5 rounded-full bg-green-500"></span>
         </span>
-        2,934 online
+        2.934 online
       </div>
       <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-        Claim #{displayRank} for{' '}
+        Claim #{diConsigue el #{displayRank} por{' '}
         <div className="inline-flex items-center gap-1 sm:gap-2 text-primary align-middle justify-center flex-wrap">
           <button
             type="button"
@@ -119,8 +119,8 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
         </div>
       </h1>
       <p className="text-muted-foreground mt-3 text-base sm:text-lg max-w-3xl mx-auto px-4">
-        New spots start at $1. Paying less than the #1 price still puts you on the board at whatever
-        place that bid can take.
+            Puedes entrar desde 1 €. No necesitas pagar por el nº1: tu puja te coloca 
+            automáticamente en la posición que alcance.
       </p>
 
       <div className="mt-8 max-w-lg mx-auto px-4">
@@ -133,7 +133,7 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
             )}
             <Input
               ref={ref}
-              placeholder="Your product's URL or @handle"
+              placeholder="adolfojaen"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
               className="pl-11 h-12 text-base rounded-full min-w-0"
