@@ -7,11 +7,11 @@ import { Badge } from '@/components/ui/badge';
 import { LatestActivitySkeleton } from '@/components/latest-activity-skeleton';
 
 const latestActivity = [
-  { name: 'nippy.host', rank: 132, amount: '$14', time: 'just now' },
-  { name: 'maltacasino.se', rank: 169, amount: '$7', time: 'just now' },
-  { name: 'jobfast.co', rank: 233, amount: '$5', time: '2 minutes ago' },
-  { name: 'outrank.so', rank: 1, amount: '$12,052', time: '3 minutes ago' },
-  { name: 'aiapply.co', rank: 131, amount: '$14', time: '4 minutes ago' },
+  { name: 'ejemplo.com', rank: 132, amount: '14 €', time: 'ahora mismo' },
+  { name: 'mimarca.es', rank: 169, amount: '7 €', time: 'ahora mismo' },
+  { name: 'proyecto.io', rank: 233, amount: '5 €', time: 'hace 1 min' },
+  { name: 'nexo.app', rank: 1, amount: '23 €', time: 'hace 2 min' },
+  { name: 'marca.es', rank: 97, amount: '18 €', time: 'hace 3 min' },
 ];
 
 export function LatestActivity() {
