@@ -133,7 +133,7 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
             )}
             <Input
               ref={ref}
-              placeholder="@usuario"
+              placeholder="@tuUsuario"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
               className="pl-11 h-12 text-base rounded-full min-w-0"
