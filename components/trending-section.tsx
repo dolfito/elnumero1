@@ -30,7 +30,7 @@ export function TrendingSection() {
       <CardHeader>
         <CardTitle className="text-sm font-medium flex items-center gap-2">
           <Flame className="h-4 w-4 text-muted-foreground" />
-          Teneencias ahora
+          Tendencias ahora
         </CardTitle>
       </CardHeader>
       <CardContent>
