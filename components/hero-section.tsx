@@ -145,15 +145,13 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
             onClick={handleClaim}
             disabled={isSubmitting}
           >
-            {isSubmitting ? 'Procesando…' : 'Conseguir puesto'}
-          </Button>
-        </div>
-        {error && <p className="text-xs text-destructive mt-2">{error}</p>}
-        <p <p className="text-xs text-muted-foreground mt-3">
-  ¿Ya estás en la lista? Introduce la misma URL o @usuario 
-        y aumenta tu puja. Solo pagarás la diferencia.
+            {isSubmitting ? 'Procesando…' : 'Consigue tu puesto'}
+</Button>
+</div>
+{error && <p className="text-xs text-orange-500 mt-2">{error}</p>}
+<p className="text-xs text-muted-foreground mt-3">
+  ¿Ya estás en la lista? Introduce la misma URL o @usuario y aumenta tu puja. Solo pagarás la diferencia.
 </p>
-        </p>
       </div>
     </section>
   );
