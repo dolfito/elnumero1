@@ -8,11 +8,11 @@ import { Flame } from 'lucide-react';
 import { TrendingSkeleton } from '@/components/trending-skeleton';
 
 const trendingItems = [
-  { name: 'outrank.so', clicks: '869 clicks/h' },
-  { name: 'orynth.dev', clicks: '671 clicks/h' },
-  { name: 'shows.farm', clicks: '288 clicks/h' },
-  { name: 'foundrlist.com', clicks: '277 clicks/h' },
-  { name: 'redreplier.com', clicks: '265 clicks/h' },
+  { name: 'outrank.so', clicks: '869 clics/h' },
+  { name: 'orynth.dev', clicks: '671 clics/h' },
+  { name: 'shows.farm', clicks: '288 clics/h' },
+  { name: 'foundrlist.com', clicks: '277 clics/h' },
+  { name: { name: 'redreplier.com', clicks: '265 clics/h' },
 ];
 
 export function TrendingSection() {
@@ -30,7 +30,7 @@ export function TrendingSection() {
       <CardHeader>
         <CardTitle className="text-sm font-medium flex items-center gap-2">
           <Flame className="h-4 w-4 text-muted-foreground" />
-          Trending right now
+          Teneencias ahora
         </CardTitle>
       </CardHeader>
       <CardContent>
