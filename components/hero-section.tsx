@@ -157,4 +157,4 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
 </div>
 </section>
   );
-});
+}
