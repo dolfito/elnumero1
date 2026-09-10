@@ -142,7 +142,7 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
           <Button
             size="lg"
             className="h-12 px-8 rounded-full shrink-0"
-            {isSubmitting ? 'Procesando…' : 'Conseguir puesto'}
+            onClick={handleClaim}
             disabled={isSubmitting}
           >
             {isSubmitting ? 'Procesando…' : 'Conseguir puesto'}
