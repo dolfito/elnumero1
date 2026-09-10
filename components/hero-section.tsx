@@ -152,7 +152,7 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
 <p className="text-xs text-muted-foreground mt-3">
   ¿Ya estás en la lista? Introduce la misma URL o @usuario y aumenta tu puja. Solo pagarás la diferencia.
 </p>
-      </div>
-    </section>
+</div>
+</section>
   );
 });
