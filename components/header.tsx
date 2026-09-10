@@ -25,7 +25,7 @@ export function Header() {
             </Button>
           )}
           <Link href="/" className="font-bold text-xl">
-            outbid.lol
+            Elnumero1
           </Link>
         </div>
         <nav className={cn('flex items-center gap-4', isMobile && 'hidden')}>
