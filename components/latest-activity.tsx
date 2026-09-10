@@ -32,7 +32,7 @@ export function LatestActivity() {
             <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary opacity-75"></span>
             <span className="relative inline-flex size-1.5 rounded-full bg-primary"></span>
           </span>
-          Latest activity
+          Actividad reciente
         </CardTitle>
       </CardHeader>
       <CardContent>
