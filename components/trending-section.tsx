@@ -12,7 +12,7 @@ const trendingItems = [
   { name: 'orynth.dev', clicks: '671 clics/h' },
   { name: 'shows.farm', clicks: '288 clics/h' },
   { name: 'foundrlist.com', clicks: '277 clics/h' },
-  { name: { name: 'redreplier.com', clicks: '265 clics/h' },
+  { name: 'redreplier.com', clicks: '265 clicks/h' },
 ];
 
 export function TrendingSection() {
