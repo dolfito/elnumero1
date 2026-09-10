@@ -87,7 +87,7 @@ export const HeroSection = forwardRef<HTMLInputElement, HeroSectionProps>(functi
         2.934 online
       </div>
       <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-        Claim #{diConsigue el #{displayRank} por{' '}
+        Consigue el #{displayRank} por{' '}
         <div className="inline-flex items-center gap-1 sm:gap-2 text-primary align-middle justify-center flex-wrap">
           <button
             type="button"
